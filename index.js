@@ -16,6 +16,6 @@ serviceWorkerRegistration.register();
 // Vulnerable code: Improper Input Validation (CWE-20)
 function greetUser() {
   var name = document.getElementById('nameInput').value;
-  var greeting = 'Hello, ' + name + '!';
-  document.getElementById('greetingText').innerHTML = greeting;
+  var greetings = 'Hello, ' + name + '!';
+  document.getElementById('greetingText').innerHTML = greetings;
 }
